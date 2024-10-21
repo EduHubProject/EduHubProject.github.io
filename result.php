@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <script src="js/obrab.js"></script>
+  <link rel="stylesheet" href="css/grid.css">
+  <title>EduHub | Результаты анкетирования</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="/index.php">
+          <img src="img/eduhub.svg" alt="Logo">
+        </a>
+        </div>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="/index.php" class="menu__link">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a href="/index.php" class="menu__link">О проекте</a>
+            </li>
+            <li class="menu__item">
+              <a href="/index.php" class="menu__link">Обращение</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="page">
+      <section class="page__main main">
+        <div class="main__container">
+          <div class="main__content">
+            <h1 class="main__title title" >РЕЗУЛЬТАТЫ <span>АНКЕТИРОВАНИЯ</span></h1>
+          </div>
+        </div>
+    </section>
+        <section class="page__main main">
+            <div class="main__buttons">
+                <a href="https://docs.google.com/spreadsheets/d/1jM6TZuIp7ObFF-d_V_lcHvxjlupSs7v75DJSTDsbhyw/edit?resourcekey=&gid=1710750084#gid=1710750084" class="main__hire-button button button_dark" style="margin: 0 auto;"><span>Узнать подробнее</span></a> 
+                </div><br>
+        <div class="main__container">
+            
+          <div class="cards-grid">
+
+            <div class="card-demo imageform1d">
+                <img class="dio" src="img/result/Screenshot_1359.png">
+            </div>
+            <div class="card-demo imageform2d">
+                <img class="dio" src="img/result/Screenshot_1361.png">
+            </div>
+            <div class="card-demo imageform3nd">
+                <img class="dio" src="img/result/Screenshot_1363.png">
+            </div>
+            <div class="card-demo imageform4nd">
+                <img class="dio" src="img/result/Screenshot_1364.png">
+            </div>
+
+            <div class="card-demo imageform5d">
+                <img class="dio" src="img/result/Screenshot_1365.png">
+            </div>
+            <div class="card-demo imageform6d">
+                <img class="dio" src="img/result/Screenshot_1366.png">
+            </div>
+            <div class="card-demo imageform7nd">
+                <img class="dio" src="img/result/Screenshot_1367.png">
+            </div>
+            <div class="card-demo imageform8nd">
+                <img class="dio" src="img/result/Screenshot_1368.png">
+            </div>
+
+            <div class="card-demo imageform9d">
+                <img class="dio" src="img/result/Screenshot_1369.png">
+            </div>
+            <div class="card-demo imageform10d">
+                <img class="dio" src="img/result/Screenshot_1370.png">
+            </div>   
+        </div>    
+         
+        </div>
+        
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <nav class="footer__menu menu-footer">
+          <ul class="menu-footer__list">
+            <li class="menu-footer__item">
+              <a href="index.php" class="menu-footer__link menu-footer__link_home">Главная</a>
+            </li>
+            <li class="menu-footer__item">
+              <a href="index.php" class="menu-footer__link menu-footer__link_about">О проекте</a>
+            </li>
+            <li class="menu-footer__item">
+              <a href="index.php" class="menu-footer__link menu-footer__link_contacts">Обращение</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__social social">
+          Разработчик - Потапченко Максим | +7 (778) 546-38-99 
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

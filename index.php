@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/obrab.js"></script>
+  <title>EduHub</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="/index.php">
+          <img src="img/eduhub.svg" alt="Logo">
+        </a>
+        </div>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a data-goto=".main" href="#" class="menu__link">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a data-goto=".about" href="#" class="menu__link">О проекте</a>
+            </li>
+            <li class="menu__item">
+              <a data-goto=".contacts" href="#" class="menu__link">Обращение</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="page">
+      <section class="page__main main">
+        <div class="main__container">
+          <div class="main__content"><br><br><br><br><br><br><br><br><br>
+            <h1 class="main__title">ЗАДАЧИ <span>ЖИЗНИ</span></h1>
+            <div class="main__buttons">
+              <a href="#" class="main__hire-button button">Головоломки</a>
+              <a href="/result.php" class="main__hire-button button button_dark"><span>Сводка по анкете</span></a>
+            </div>
+          </div>
+          <div class="main__image">
+            <img src="img/main/image.svg" alt="Image">
+          </div>
+        </div>
+      </section>
+      <section class="page__about about">
+        <div class="about__container">
+          <div class="about__content">
+            <h2 class="about__title title">О <span>проекте</span></h2>
+            <div class="about__text">
+              <p>
+                Проект создан с целью показать, как работает введение новшеств в плане решения головоломок и задач. Мы хотим показать, как нейросети в скором плотно войдут в нашу жизнь, как они помогают нам решать повседневные задачи, какие головоломки развивают нам мозг и с какими задачами мы встречаемся в повседневной жизни. Этим проектом мы хотим показать ценность решения математических головоломок и ценность нейросетей в нашей жизни, прогнозирование на будущую популярность нейросетей среди людей.
+              </p>
+            </div>
+          </div>
+          <div class="about__image">
+            <img src="img/about/image.svg" alt="Image">
+          </div>
+        </div>
+      </section>
+      <section class="page__works works">
+        <div class="works__container">
+          <h2 class="works__title title">Практическая работа</h2>
+          <div class="works__items items-works">
+            <nav class="items-works__navigation">
+              <button data-work-type="" class="items-works__type button button_dark active">Все</button>
+              <button data-work-type="digital" class="items-works__type button button_dark">Цифровое</button>
+              <button data-work-type="test" class="items-works__type button button_dark">Анкеты</button>
+              <button data-work-type="life" class="items-works__type button button_dark">Живое</button>
+            </nav>
+            <div class="items-works__body">
+              <a data-work-type="digital" href="#" class="items-works__item">
+                <div class="item-works__image">
+                  <img src="img/works/items/site.svg" alt="Image">
+                </div>
+                Сайт для новейшего подхода в обучение
+              </a>
+              
+              <a data-work-type="digital" href="#" class="items-works__item">
+                <div class="item-works__image">
+                  <img src="img/works/items/forum.svg" alt="Image">
+                </div>
+                Тематический форум для помощи в решении головоломках
+              </a>
+              <a data-work-type="test" href="/result.php" class="items-works__item">
+                <div class="item-works__image">
+                  <img src="img/works/items/result.svg" alt="Image">
+                </div>
+                Вопросы и результаты анкетирования
+              </a>
+              <a data-work-type="digital" href="#" class="items-works__item">
+                <div class="item-works__image">
+                  <img src="img/works/items/digitalpuz.svg" alt="Image">
+                </div>
+                Цифровые головоломки и решения их
+              </a>
+              <a data-work-type="life" href="#" class="items-works__item">
+                <div class="item-works__image">
+                  <img src="img/works/items/puzzle.svg" alt="Image">
+                </div>
+                Головоломки вживую
+              </a>
+              <a data-work-type="test" href="#" class="items-works__item">
+                <div class="item-works__image">
+                  <img src="img/works/items/puzzleforcom.svg" alt="Image">
+                </div>
+                Головоломки и задачи для комиссии
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__contacts contacts">
+        <div class="contacts__container">
+          <div class="contacts__content">
+            <h2 class="contacts__title title">Вы можете помочь <span>проекту!</span></h2>
+            <div class="contacts__image">
+              <img src="img/contacts/image.svg" alt="Image">
+            </div>
+          </div>
+          <form hidden method="POST" action="" autocomplete="off" action="#" class="contacts__form form">
+            <div class="form__item">
+              <label for="i-1" class="form__label">Ваше имя</label>
+              <input name="Имя" required id="i-1" type="text" class="form__input" placeholder="Имя">
+            </div>
+            <div class="form__item">
+              <label for="i-2" class="form__label">Ваша почта</label>
+              <input name="Email" required id="i-2" type="email" class="form__input" placeholder="Почта">
+            </div>
+            <div class="form__item">
+              <label for="i-3" class="form__label">Ваше обращение</label>
+              <textarea name="Обращение" id="i-3" class="form__input" placeholder="Обращение"></textarea>
+            </div>
+            <div class="form__item">
+              <button type="submit" class="form__button button button_dark" disabled><span>Отправить</span></button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <nav class="footer__menu menu-footer">
+          <ul class="menu-footer__list">
+            <li class="menu-footer__item">
+              <a data-goto=".main" href="#" class="menu-footer__link menu-footer__link_home">Главная</a>
+            </li>
+            <li class="menu-footer__item">
+              <a data-goto=".about" href="#" class="menu-footer__link menu-footer__link_about">О проекте</a>
+            </li>
+            <li class="menu-footer__item">
+              <a data-goto=".contacts" href="#" class="menu-footer__link menu-footer__link_contacts">Обращение</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__social social">
+          Разработчик - Потапченко Максим | +7 (778) 546-38-99 
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

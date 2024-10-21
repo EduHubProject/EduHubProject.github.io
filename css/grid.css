@@ -1,0 +1,81 @@
+.dio {
+    height: 230px;  
+    width: 100%;
+  }
+  
+  .cards-grid {
+    display: grid;
+    gap: 80px;
+    grid-template-columns: repeat(4, minmax(200px, 250px));
+    grid-template-rows: repeat(5, 180px);
+    grid-auto-rows: 380px;
+    grid-template-areas: 
+    "wide1 wide1 nodem1 nodem1"
+    "wide2 wide2 nodem2 nodem2"
+    "wide3 wide3 wide5 wide5"
+    "wide4 wide4 wide6 wide6"
+    "nodem3 nodem3 nodem4 nodem4"
+    ;
+    
+  }
+  .imageform1d { grid-area: wide1; }
+  .imageform2d { grid-area: wide2; }
+  .imageform3nd { grid-area: nodem1; }
+  .imageform4nd { grid-area: nodem2; }
+  .imageform5d { grid-area: wide3; }
+  .imageform6d { grid-area: wide4; }
+  .imageform9d { grid-area: wide5; }
+  .imageform10d { grid-area: wide6; }
+  .imageform7nd { grid-area: nodem3; }
+  .imageform8nd { grid-area: nodem4; }
+  
+  @media(max-width: 1070px) {
+    .cards-grid {
+      gap: 60px;
+      margin: auto;
+      grid-template-columns: repeat(2, minmax(140px, 400px));
+      grid-template-rows: repeat(10, minmax(180px, 230px));
+      grid-template-areas: 
+      "wide1 wide1"
+      "wide2 wide2"
+      "nodem1 nodem1" 
+      "nodem2 nodem2"
+      "wide3 wide3"
+      "wide4 wide4"
+      "wide5 wide5"
+      "wide6 wide6"
+      "nodem3 nodem3"
+      "nodem4 nodem4";
+    }
+    .dio {
+      height: minmax(180px, 230px);  
+      width: 100%;
+    }
+  }
+  
+  @media(max-width: 409px) {
+    .cards-grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(16, 140px);
+      width: 100%;
+      grid-auto-rows: 300px;
+      grid-template-areas:
+      "wide1"
+      "wide1"
+      "wide2"
+      "wide2"
+      "nodem1"
+      "nodem2"
+      "wide3"
+      "wide3"
+      "wide4"
+      "wide4"
+      "wide5"
+      "wide5"
+      "wide6"
+      "wide6"
+      "nodem3"
+      "nodem4";
+      
+    }
+  }
