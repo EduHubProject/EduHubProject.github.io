@@ -34,18 +34,18 @@
       gap: 60px;
       margin: auto;
       grid-template-columns: repeat(2, minmax(140px, 400px));
-      grid-template-rows: repeat(10, minmax(180px, 230px));
+      grid-template-rows: repeat(10, minmax(110px, 120px));
       grid-template-areas: 
-      "wide1 wide1"
-      "wide2 wide2"
-      "nodem1 nodem1" 
-      "nodem2 nodem2"
-      "wide3 wide3"
-      "wide4 wide4"
-      "wide5 wide5"
-      "wide6 wide6"
-      "nodem3 nodem3"
-      "nodem4 nodem4";
+      "wide1 wide2"
+      "wide1 wide2"
+      "nodem1 nodem2" 
+      "nodem1 nodem2"
+      "wide3 wide4"
+      "wide3 wide4"
+      "wide5 wide6"
+      "wide5 wide6"
+      "nodem3 nodem4"
+      "nodem3 nodem4";
     }
     .dio {
       height: minmax(180px, 230px);  
@@ -53,10 +53,11 @@
     }
   }
   
-  @media(max-width: 409px) {
+  @media(max-width: 767px) {
     .cards-grid {
+      gap: 50px;
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(16, 140px);
+      grid-template-rows: repeat(20, 100px);
       width: 100%;
       grid-auto-rows: 300px;
       grid-template-areas:
@@ -65,6 +66,8 @@
       "wide2"
       "wide2"
       "nodem1"
+      "nodem1"
+      "nodem2"
       "nodem2"
       "wide3"
       "wide3"
@@ -75,7 +78,9 @@
       "wide6"
       "wide6"
       "nodem3"
-      "nodem4";
+      "nodem3"
+      "nodem4"
+      "nodem4"
       
     }
   }
@@ -128,5 +133,83 @@
       "qr3"
       "qr4";
       
+    }
+  }
+
+
+  .puz {
+    height: 230px;  
+    width: 100%;
+  }
+  
+  .cards-grid-lp {
+    display: grid;
+    gap: 80px;
+    grid-template-columns: repeat(4, minmax(200px, 250px));
+    grid-template-rows: repeat(6, 60px);
+    grid-auto-rows: 380px;
+    grid-template-areas: 
+    "wide1 wide1 wide2 wide2"
+    "wide1 wide1 wide2 wide2"
+    "wide3 wide3 wide4 wide4"
+    "wide3 wide3 wide4 wide4"
+    "nodem1 nodem1 nodem2 nodem2"
+    "nodem1 nodem1 nodem2 nodem2"
+    ;
+    
+  }
+  .puzzle1 { grid-area: wide1; }
+  .puzzle2 { grid-area: wide2; }
+  .puzzle3 { grid-area: nodem1; }
+  .puzzle4 { grid-area: nodem2; }
+  .puzzle5 { grid-area: wide3; }
+  .puzzle6 { grid-area: wide4; }
+  
+  @media(max-width: 1070px) {
+    .cards-grid-lp {
+      gap: 60px;
+      margin: auto;
+      grid-template-columns: repeat(2, minmax(140px, 400px));
+      grid-template-rows: repeat(12, minmax(110px, 120px));
+      grid-template-areas: 
+      "wide1 wide1"
+      "wide1 wide1"
+      "wide2 wide2"
+      "wide2 wide2"
+      "wide3 wide3"
+      "wide3 wide3"
+      "wide4 wide4"
+      "wide4 wide4"
+      "nodem1 nodem1" 
+      "nodem1 nodem1"
+      "nodem2 nodem2"
+      "nodem2 nodem2";
+    }
+    .puz {
+      height: minmax(180px, 230px);  
+      width: 100%;
+    }
+  }
+  
+  @media(max-width: 767px) {
+    .cards-grid-lp {
+      gap: 50px;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(12, 100px);
+      width: 100%;
+      grid-auto-rows: 300px;
+      grid-template-areas:
+      "wide1"
+      "wide1"
+      "wide2"
+      "wide2"
+      "wide3"
+      "wide3"
+      "wide4"
+      "wide4"
+      "nodem1"
+      "nodem1"
+      "nodem2"
+      "nodem2";      
     }
   }
