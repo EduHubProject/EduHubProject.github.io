@@ -79,3 +79,52 @@
       
     }
   }
+  .qrdi {
+    height: 250px;  
+    width: 100%;
+  }
+  .cards-grid-qr {
+    display: grid;
+    gap: 250px;
+    grid-template-columns: repeat(3, minmax(180px, 250px));
+    grid-template-rows: repeat(1, minmax(180px, 200px));
+    grid-auto-rows: 380px;
+    grid-template-areas: 
+    "qr1 qr2 qr3"
+    ;
+    
+  }
+  .qr-codefk1 { grid-area: qr1; }
+  .qr-codefk2 { grid-area: qr2; }
+  .qr-codefk3 { grid-area: qr3; }
+  
+  @media(max-width: 1070px) {
+    .cards-grid-qr {
+      gap: 60px;
+      margin: auto;
+      grid-template-columns: repeat(2, minmax(140px, 400px));
+      grid-template-rows: repeat(2, minmax(180px, 230px));
+      grid-template-areas: 
+      "qr1 qr2"
+      "qr3    ";
+    }
+    .qrdi {
+      height: minmax(180px, 200px);  
+      width: 100%;
+    }
+  }
+  
+  @media(max-width: 590px) {
+    .cards-grid-qr {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 140px);
+      width: 50%;
+      gap: 200px;
+      grid-auto-rows: 300px;
+      grid-template-areas:
+      "qr1"
+      "qr2"
+      "qr3";
+      
+    }
+  }
