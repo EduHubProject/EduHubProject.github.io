@@ -97,7 +97,8 @@
   .qr-codefk1 { grid-area: qr1; }
   .qr-codefk2 { grid-area: qr2; }
   .qr-codefk3 { grid-area: qr3; }
-  
+  .qr-codefk4 { grid-area: qr4; }
+
   @media(max-width: 1070px) {
     .cards-grid-qr {
       gap: 60px;
@@ -117,14 +118,15 @@
   @media(max-width: 590px) {
     .cards-grid-qr {
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(3, 140px);
+      grid-template-rows: repeat(4, 140px);
       width: 50%;
       gap: 200px;
       grid-auto-rows: 300px;
       grid-template-areas:
       "qr1"
       "qr2"
-      "qr3";
+      "qr3"
+      "qr4";
       
     }
   }
