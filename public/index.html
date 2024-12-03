@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    
+    <!-- Загрузка скриптов с атрибутом async -->
+    <script async src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+    <script async src="https://use.fontawesome.com/releases/v5.13.0/js/v4-shims.js"></script>    
+    
+    <!-- Объединение шрифтов в одну ссылку -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Загрузка animate.css, если необходимо -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />  
+    
+    <meta name="description" content="Website created via Developer Potapchenko Maxim for EduHub Project" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.webp" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>EduHub</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+            });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
