@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Website created via Developer Potapchenko Maxim for EduHub Project" />
+    <link rel="apple-touch-icon" href="/assets/logo192-BOxaRUy-.webp" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="/assets/manifest-B6K98A67.json">
+    <title>EduHub</title>
+    <script type="module" crossorigin src="/assets/index-BP696Umr.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B3tFdUAe.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+            });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
