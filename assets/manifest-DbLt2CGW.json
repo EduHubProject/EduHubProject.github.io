@@ -3,17 +3,17 @@
   "name": "EduHub Project",
   "icons": [
     {
-      "src": "logo.webp",
+      "src": "./logo.webp",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.webp",
+      "src": "./logo192.webp",
       "type": "image/webp",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.webp",
+      "src": "./logo512.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }
