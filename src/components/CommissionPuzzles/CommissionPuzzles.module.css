@@ -1,0 +1,286 @@
+.section {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+.title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 80px;
+  color: #EEE;
+}
+
+.title span {
+  color: #00ADB5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  align-items: start;
+}
+
+.qrCard {
+  background: rgba(34, 40, 49, 0.6);
+  border-radius: 25px;
+  padding: 40px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 173, 181, 0.3);
+  box-shadow: 0 0 30px rgba(0, 173, 181, 0.1);
+}
+
+.qrWrapper {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.qrLabel {
+  color: rgba(238, 238, 238, 0.9);
+  font-size: 1.2rem;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.puzzle {
+  background: rgba(34, 40, 49, 0.6);
+  border-radius: 25px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 173, 181, 0.3);
+  box-shadow: 0 0 20px rgba(0, 173, 181, 0.1);
+}
+
+.puzzleTitle {
+  font-family: 'Orbitron', sans-serif;
+  color: #00ADB5;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.puzzleText {
+  color: #EEE;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.puzzleContent {
+  background: rgba(34, 40, 49, 0.6);
+  border: 1px solid rgba(0, 173, 181, 0.3);
+  border-radius: 20px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  transition: all 0.5s ease;
+}
+
+.puzzleContent:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 173, 181, 0.2);
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: rgba(57, 62, 70, 0.8);
+  border: 2px solid #00ADB5;
+  border-radius: 8px;
+  color: #EEE;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 173, 181, 0.3);
+}
+
+.actionButton {
+  width: 100%;
+  padding: 12px;
+  color: #EEE;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.actionButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 173, 181, 0.3);
+}
+
+.feedback {
+  margin: 10px 0;
+  font-size: 0.9rem;
+  color: #EEE;
+  min-height: 20px;
+}
+
+.hint {
+  color: #00ADB5;
+  font-style: italic;
+  margin-top: 5px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+.hint.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 1200px) {
+  .container {
+    padding: 80px 20px;
+  }
+
+  .title {
+    font-size: 3rem;
+    margin-bottom: 60px;
+  }
+
+  .grid {
+    gap: 30px;
+  }
+
+  .qrCard {
+    padding: 30px;
+  }
+
+  .puzzle {
+    padding: 25px;
+  }
+
+  .puzzleTitle {
+    font-size: 1.6rem;
+  }
+
+  .puzzleText {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 60px 15px;
+    margin-top: 40px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .qrCard {
+    padding: 20px;
+    display: none;
+  }
+
+  .qrLabel {
+    font-size: 1rem;
+    display: none;
+  }
+
+  .puzzle {
+    padding: 20px;
+  }
+
+  .puzzleTitle {
+    font-size: 1.4rem;
+  }
+
+  .puzzleText {
+    font-size: 0.9rem;
+  }
+
+  .input {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .actionButton {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .feedback {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 40px 10px;
+    margin-top: 60px;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+
+  .qrCard {
+    padding: 15px;
+  }
+
+  .qrLabel {
+    font-size: 0.9rem;
+  }
+
+  .puzzle {
+    padding: 15px;
+  }
+
+  .puzzleTitle {
+    font-size: 1.2rem;
+  }
+
+  .puzzleText {
+    font-size: 0.8rem;
+  }
+
+  .input {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+
+  .actionButton {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+
+  .feedback {
+    font-size: 0.7rem;
+  }
+}

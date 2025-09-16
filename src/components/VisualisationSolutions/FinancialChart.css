@@ -1,0 +1,47 @@
+/* В SolutionVisualization.css */
+.financial-chart-container {
+    background: linear-gradient(145deg, #2c3e50, #263544);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Отступ снизу для разделения с другими элементами */
+  }
+  
+  .chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .chart-title {
+    color: #4ecdc4;
+    font-size: 1.5rem;
+  }
+  
+  .chart-legend {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .color-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+  }
+
+  @media screen and (max-width: 768px) {
+  .financial-chart-container {
+    padding: 15px;
+  }
+
+  .chart-title {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,70 @@
+.puzzleSolvingContainer {
+    max-width: 800px;
+    margin: 120px auto 0;
+    padding: 20px;
+  }
+  
+  .puzzleHeader {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .progressTracker {
+    color: var(--color-primary);
+    margin-top: 10px;
+  }
+  
+  .questionContainer {
+    background: rgba(57, 62, 70, 0.5);
+    border-radius: 15px;
+    padding: 30px;
+  }
+  
+  .questionText {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .answerOptions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  
+  .answerButton {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(0, 173, 181, 0.1);
+    color: #eeeeee;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .selectedAnswer {
+    background: rgba(0, 173, 181, 0.3);
+  }
+  
+  .correctAnswer {
+    background: rgba(0, 255, 0, 0.3);
+  }
+  
+  .incorrectAnswer {
+    background: rgba(255, 0, 0, 0.3);
+  }
+  
+  .actionButtons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .checkButton, .nextButton {
+    background: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+  }

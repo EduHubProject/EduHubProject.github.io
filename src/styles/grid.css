@@ -1,0 +1,215 @@
+.dio {
+    height: 230px;  
+    width: 100%;
+  }
+  
+  .cards-grid {
+    display: grid;
+    gap: 80px;
+    grid-template-columns: repeat(4, minmax(200px, 250px));
+    grid-template-rows: repeat(5, 180px);
+    grid-auto-rows: 380px;
+    grid-template-areas: 
+    "wide1 wide1 nodem1 nodem1"
+    "wide2 wide2 nodem2 nodem2"
+    "wide3 wide3 wide5 wide5"
+    "wide4 wide4 wide6 wide6"
+    "nodem3 nodem3 nodem4 nodem4"
+    ;
+    
+  }
+  .imageform1d { grid-area: wide1; }
+  .imageform2d { grid-area: wide2; }
+  .imageform3nd { grid-area: nodem1; }
+  .imageform4nd { grid-area: nodem2; }
+  .imageform5d { grid-area: wide3; }
+  .imageform6d { grid-area: wide4; }
+  .imageform9d { grid-area: wide5; }
+  .imageform10d { grid-area: wide6; }
+  .imageform7nd { grid-area: nodem3; }
+  .imageform8nd { grid-area: nodem4; }
+  
+  @media(max-width: 1070px) {
+    .cards-grid {
+      gap: 60px;
+      margin: auto;
+      grid-template-columns: repeat(2, minmax(140px, 400px));
+      grid-template-rows: repeat(10, minmax(110px, 120px));
+      grid-template-areas: 
+      "wide1 wide2"
+      "wide1 wide2"
+      "nodem1 nodem2" 
+      "nodem1 nodem2"
+      "wide3 wide4"
+      "wide3 wide4"
+      "wide5 wide6"
+      "wide5 wide6"
+      "nodem3 nodem4"
+      "nodem3 nodem4";
+    }
+    .dio {
+      height: minmax(180px, 230px);  
+      width: 100%;
+    }
+  }
+  
+  @media(max-width: 767px) {
+    .cards-grid {
+      gap: 50px;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(20, 100px);
+      width: 100%;
+      grid-auto-rows: 300px;
+      grid-template-areas:
+      "wide1"
+      "wide1"
+      "wide2"
+      "wide2"
+      "nodem1"
+      "nodem1"
+      "nodem2"
+      "nodem2"
+      "wide3"
+      "wide3"
+      "wide4"
+      "wide4"
+      "wide5"
+      "wide5"
+      "wide6"
+      "wide6"
+      "nodem3"
+      "nodem3"
+      "nodem4"
+      "nodem4"
+      
+    }
+  }
+  .qrdi {
+    height: 250px;  
+    width: 100%;
+  }
+  .cards-grid-qr {
+    display: grid;
+    gap: 250px;
+    grid-template-columns: repeat(3, minmax(180px, 250px));
+    grid-template-rows: repeat(1, minmax(180px, 200px));
+    grid-auto-rows: 380px;
+    grid-template-areas: 
+    "qr1 qr2 qr3"
+    ;
+    
+  }
+  .qr-codefk1 { grid-area: qr1; }
+  .qr-codefk2 { grid-area: qr2; }
+  .qr-codefk3 { grid-area: qr3; }
+  .qr-codefk4 { grid-area: qr4; }
+
+  @media(max-width: 1070px) {
+    .cards-grid-qr {
+      gap: 60px;
+      margin: auto;
+      grid-template-columns: repeat(2, minmax(140px, 400px));
+      grid-template-rows: repeat(2, minmax(180px, 230px));
+      grid-template-areas: 
+      "qr1 qr2"
+      "qr3    ";
+    }
+    .qrdi {
+      height: minmax(180px, 200px);  
+      width: 100%;
+    }
+  }
+  
+  @media(max-width: 590px) {
+    .cards-grid-qr {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 140px);
+      width: 50%;
+      gap: 200px;
+      grid-auto-rows: 300px;
+      grid-template-areas:
+      "qr1"
+      "qr2"
+      "qr3"
+      "qr4";
+      
+    }
+  }
+
+
+  .puz {
+    height: 230px;  
+    width: 100%;
+  }
+  
+  .cards-grid-lp {
+    display: grid;
+    gap: 80px;
+    grid-template-columns: repeat(4, minmax(200px, 250px));
+    grid-template-rows: repeat(6, 60px);
+    grid-auto-rows: 380px;
+    grid-template-areas: 
+    "wide1 wide1 wide2 wide2"
+    "wide1 wide1 wide2 wide2"
+    "wide3 wide3 wide4 wide4"
+    "wide3 wide3 wide4 wide4"
+    "nodem1 nodem1 nodem2 nodem2"
+    "nodem1 nodem1 nodem2 nodem2"
+    ;
+    
+  }
+  .puzzle1 { grid-area: wide1; }
+  .puzzle2 { grid-area: wide2; }
+  .puzzle3 { grid-area: nodem1; }
+  .puzzle4 { grid-area: nodem2; }
+  .puzzle5 { grid-area: wide3; }
+  .puzzle6 { grid-area: wide4; }
+  
+  @media(max-width: 1070px) {
+    .cards-grid-lp {
+      gap: 60px;
+      margin: auto;
+      grid-template-columns: repeat(2, minmax(140px, 400px));
+      grid-template-rows: repeat(12, minmax(110px, 120px));
+      grid-template-areas: 
+      "wide1 wide1"
+      "wide1 wide1"
+      "wide2 wide2"
+      "wide2 wide2"
+      "wide3 wide3"
+      "wide3 wide3"
+      "wide4 wide4"
+      "wide4 wide4"
+      "nodem1 nodem1" 
+      "nodem1 nodem1"
+      "nodem2 nodem2"
+      "nodem2 nodem2";
+    }
+    .puz {
+      height: minmax(180px, 230px);  
+      width: 100%;
+    }
+  }
+  
+  @media(max-width: 767px) {
+    .cards-grid-lp {
+      gap: 50px;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(12, 100px);
+      width: 100%;
+      grid-auto-rows: 300px;
+      grid-template-areas:
+      "wide1"
+      "wide1"
+      "wide2"
+      "wide2"
+      "wide3"
+      "wide3"
+      "wide4"
+      "wide4"
+      "nodem1"
+      "nodem1"
+      "nodem2"
+      "nodem2";      
+    }
+  }

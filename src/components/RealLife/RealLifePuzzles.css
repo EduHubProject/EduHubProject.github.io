@@ -1,0 +1,24 @@
+.real-life-puzzles {
+    max-width: 1200px;
+    margin: 40px auto 0 auto;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #222831; /* Темный фон */
+    color: rgba(238, 238, 238, 0.9); /* Светлый текст */
+  }
+
+  .real-life-puzzles__title {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #00ADB5; /* Цвет заголовка */
+  }
+
+  section {
+    margin-bottom: 60px;
+    padding: 20px;
+    border: 1px solid rgba(238, 238, 238, 0.1);
+    border-radius: 8px;
+    background-color: #393E46; 
+  }
+  

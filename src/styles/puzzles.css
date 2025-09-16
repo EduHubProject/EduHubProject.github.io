@@ -1,0 +1,97 @@
+.puzzles-section {
+    margin: 80px 100px 80px 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.puzzles-section__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.puzzles-section__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 100px;
+
+}
+
+.puzzles-section__card {
+    width: 225px; 
+    height: 300px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.puzzles-section__card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 8px; 
+    z-index: 1; 
+    pointer-events: none; 
+}
+
+.puzzles-section__card-name {
+    position: relative;
+    z-index: 2; 
+    padding: 15px;
+    font-size: 1.5rem;
+    text-align: center; 
+    color: white;
+    overflow: hidden; 
+    white-space: normal;
+    text-overflow: ellipsis;
+}
+
+.puzzles-section__card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.puzzles-section__image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .puzzles-section__title {
+        font-size: 1.75rem;
+    }
+
+    .puzzles-section__card-name {
+        font-size: 1.25rem;
+    }
+    .puzzles-section {
+        margin: 80px auto 80px auto;
+    }
+    .puzzles-section__grid {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 548px) {
+    .puzzles-section__title {
+        font-size: 1.5rem;
+    }
+    .puzzles-section__card {
+        width: 100%;
+    }
+    .puzzles-section__card-name {
+        font-size: 1rem;
+    }
+    .puzzles-section {
+        margin: 80px auto 80px auto;
+    }
+    .puzzles-section__grid {
+        gap: 20px;
+    }
+}

@@ -1,0 +1,281 @@
+.result-page {
+    background-color: #222831;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(238, 238, 238, 0.75);
+    padding: 20px;
+}
+
+.result-container {
+    background-color: rgba(57, 62, 70, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 32px;
+    max-width: 1100px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.result-left-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.result-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    color: #00ADB5;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.score-bubble {
+    background-color: rgba(0, 173, 181, 0.2);
+    color: #00ADB5;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #00ADB5;
+    transition: all 0.3s ease;
+}
+
+.score-bubble:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 173, 181, 0.3);
+}
+
+.score-value {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.score-label {
+    font-size: 16px;
+    color: rgba(238, 238, 238, 0.75);
+    margin-top: 5px;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+}
+
+.stat-card {
+    background-color: rgba(57, 62, 70, 0.5);
+    padding: 16px;
+    border-radius: 16px;
+    flex: 1;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    background-color: rgba(0, 173, 181, 0.2);
+    transform: translateY(-5px);
+}
+
+.stat-card h3 {
+    color: #00ADB5;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.stat-value {
+    font-size: 32px;
+    font-weight: 700;
+    color: #eeeeee;
+}
+
+.achievements-section {
+    margin-top: 24px;
+    width: 100%;
+}
+
+.achievements-section h2 {
+    color: #00ADB5;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.achievements-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.achievement-badge-big {
+    background-color: rgba(57, 62, 70, 0.5);
+    color: #00ADB5;
+    padding: 10px 16px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 173, 181, 0.3);
+}
+
+.achievement-badge-big:hover {
+    transform: scale(1.05);
+    background-color: rgba(0, 173, 181, 0.2);
+}
+
+.achievement-icon {
+    font-size: 20px;
+}
+
+.achievement-name {
+    font-size: 14px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.restart-btn, 
+.categories-btn {
+    background-color: #00ADB5;
+    color: #222831;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.restart-btn:hover, 
+.categories-btn:hover {
+    background-color: rgba(0, 173, 181, 0.8);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 173, 181, 0.3);
+}
+
+.restart-btn:active, 
+.categories-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 5px rgba(0, 173, 181, 0.3);
+}
+
+.performance-section {
+    margin-top: 24px;
+    background-color: rgba(57, 62, 70, 0.3);
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.performance-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.performance-card {
+    background-color: rgba(0, 173, 181, 0.1);
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+    flex: 1;
+    margin: 0 8px;
+}
+
+.performance-card h3 {
+    color: #00ADB5;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.performance-value {
+    font-size: 24px;
+    font-weight: 700;
+    color: #eeeeee;
+}
+
+.recommendation-section {
+    text-align: center;
+}
+
+.recommendation-section h3 {
+    color: #00ADB5;
+    margin-bottom: 8px;
+}
+
+.recommendation-text {
+    color: #eeeeee;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media (max-width: 992px) {
+    .result-container {
+        flex-direction: column;
+        max-width: 600px;
+    }
+
+    .result-left-column,
+    .result-right-column {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .result-container {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .result-title {
+        font-size: 28px;
+    }
+
+    .score-bubble {
+        width: 150px;
+        height: 150px;
+    }
+
+    .score-value {
+        font-size: 36px;
+    }
+
+    .stats-grid {
+        flex-direction: column;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+    }
+
+    .restart-btn, 
+    .categories-btn {
+        width: 100%;
+    }
+}

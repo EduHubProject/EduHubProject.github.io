@@ -1,0 +1,119 @@
+.header-section {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+  background-color: rgba(34, 40, 49, 0.8);
+  z-index: 50;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.header-section__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header-section__logo {
+  width: 50%;
+  height: auto;
+  display: inline-block;
+}
+
+.header-section__menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 3px;
+  align-items: center;
+}
+
+.header-section__menu-link {
+  color: #eeeeee;
+  transition: color 0.3s;
+}
+
+.header-section__menu-link:hover {
+  color: #00ADB5;
+}
+
+.header-section__language-switcher {
+  position: relative;
+}
+
+.language-switcher__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.language-switcher__dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: rgb(29, 29, 29);
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  transition: all .3s ease-in-out;
+}
+
+.language-switcher__dropdown button {
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.language-switcher__dropdown button:hover {
+  background-color: #595959;
+}
+
+.language-switcher__icon {
+  transition: transform 0.3s ease; 
+  display: inline-block;
+}
+
+.language-switcher__icon_rotated {
+  transform: rotate(180deg); 
+}
+
+@media (max-width: 768px) {
+  .language-switcher__button {
+    font-size: 14px;
+  }
+
+  .language-switcher__dropdown {
+    width: 100%;
+  }
+}
+
+@media (max-width: 920px) {
+  .header-section__logo {
+    width: 35%;
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-section__container {
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+  }
+  .header-section__menu-list {
+    column-gap: 20px;
+  }
+}

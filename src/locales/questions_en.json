@@ -1,0 +1,1695 @@
+{
+    "critical": {
+        "Лёгкий": [
+            {
+                "question": "What number should come next in the sequence: 1, 4, 9, 16, 25?",
+                "options": ["30", "36", "40", "49"],
+                "answer": "36",
+                "difficulty": 1
+            },
+            {
+                "question": "If you have three apples and eat one, how many apples do you have left?",
+                "options": ["1", "2", "3", "0"],
+                "answer": "2",
+                "difficulty": 1
+            },
+            {
+                "question": "What position does the duck hold when counting from the beginning: duck, goose, swan, sparrow?",
+                "options": ["1", "2", "3", "4"],
+                "answer": "1",
+                "difficulty": 1
+            },
+            {
+                "question": "Which of these words is the odd one out: hand, leg, ear, book?",
+                "options": ["hand", "leg", "ear", "book"],
+                "answer": "book",
+                "difficulty": 1
+            },
+            {
+                "question": "Which is lighter: 1 kg of cotton or 1 kg of iron?",
+                "options": ["cotton", "iron", "the same", "I don’t know"],
+                "answer": "the same",
+                "difficulty": 1
+            },
+            {
+                "question": "If a cat catches a mouse in 5 minutes, how long will it take for two cats to catch two mice?",
+                "options": ["2.5 minutes", "5 minutes", "10 minutes", "3 minutes"],
+                "answer": "5 minutes",
+                "difficulty": 2
+            },
+            {
+                "question": "What is common between a bicycle and a clock?",
+                "options": ["Both spin", "Both are electric", "Both show time", "Nothing in common"],
+                "answer": "Both spin",
+                "difficulty": 2
+            },
+            {
+                "question": "There are four corners in a room, and in each corner sits a cat. Each cat faces three other cats. How many cats are in the room?",
+                "options": ["12", "4", "16", "8"],
+                "answer": "4",
+                "difficulty": 2
+            },
+            {
+                "question": "A person lives in a house where the first floor is red, the second is blue, and the third is green. What color is the staircase?",
+                "options": ["Red", "Blue", "Green", "There is no staircase"],
+                "answer": "There is no staircase",
+                "difficulty": 2
+            },
+            {
+                "question": "What can you hold only when you pass it on?",
+                "options": ["A ball", "A secret", "Time", "A pen"],
+                "answer": "A secret",
+                "difficulty": 2
+            },
+            {
+                "question": "What symbol should replace the question mark: 3, 6, 9, 12, ?",
+                "options": ["14", "15", "18", "21"],
+                "answer": "15",
+                "difficulty": 3
+            },
+            {
+                "question": "A grandmother has 5 grandchildren, and each of them has 2 sisters. How many grandchildren are there in total?",
+                "options": ["5", "10", "7", "15"],
+                "answer": "7",
+                "difficulty": 3
+            },
+            {
+                "question": "What disappears when you say its name?",
+                "options": ["Silence", "Shadow", "Air", "Dream"],
+                "answer": "Silence",
+                "difficulty": 3
+            },
+            {
+                "question": "What shape does a balloon take when inflated in zero gravity?",
+                "options": ["It deflates", "Becomes spherical", "Bursts", "Does not change"],
+                "answer": "Becomes spherical",
+                "difficulty": 3
+            },
+            {
+                "question": "Who speaks the loudest but has no voice?",
+                "options": ["Lightning", "Thunder", "Echo", "Siren"],
+                "answer": "Thunder",
+                "difficulty": 3
+            },
+            {
+                "question": "What becomes larger when you take something out of it?",
+                "options": ["A hole", "A bag", "A cube", "A house"],
+                "answer": "A hole",
+                "difficulty": 3
+            },
+            {
+                "question": "Who never misses a shot but always shoots?",
+                "options": ["A hunter", "A camera", "A stream", "A beam of light"],
+                "answer": "A camera",
+                "difficulty": 3
+            },
+            {
+                "question": "Which river is the fastest?",
+                "options": ["Amazon", "Yenisei", "Twitter", "None of them"],
+                "answer": "Twitter",
+                "difficulty": 3
+            },
+            {
+                "question": "What can you see only with your eyes closed?",
+                "options": ["Dreams", "Darkness", "Memories", "Fear"],
+                "answer": "Dreams",
+                "difficulty": 3
+            },
+            {
+                "question": "Which digit looks the same in the mirror as it does normally?",
+                "options": ["1", "3", "6", "8"],
+                "answer": "8",
+                "difficulty": 3
+            },
+            {
+                "question": "How many letters are there in the word 'Seven'?",
+                "options": ["3", "4", "5", "6"],
+                "answer": "4",
+                "difficulty": 3
+            },
+            {
+                "question": "What is common between a coin and a ball?",
+                "options": ["Both are metallic", "Both have a radius", "Both are circles", "Nothing in common"],
+                "answer": "Both have a radius",
+                "difficulty": 3
+            },
+            {
+                "question": "What becomes smaller when you cut it?",
+                "options": ["Cake", "A line", "A plant", "Time"],
+                "answer": "Cake",
+                "difficulty": 3
+            }
+        ],
+        "Средний": [
+            {
+              "question": "What is the next number in the sequence: 2, 6, 12, 20, 30?",
+              "options": ["42", "36", "38", "40"],
+              "answer": "42",
+              "difficulty": 5
+            },
+            {
+              "question": "There are 5 apples in a basket. You took 3. How many apples are left in the basket?",
+              "options": ["0", "2", "5", "3"],
+              "answer": "2",
+              "difficulty": 4
+            },
+            {
+              "question": "Which word does not belong: cat, dog, tiger, whale?",
+              "options": ["Cat", "Dog", "Tiger", "Whale"],
+              "answer": "Whale",
+              "difficulty": 4
+            },
+            {
+              "question": "A man rides a horse to the city. On his way, he counts his 7 chickens. How many animals are going to the city?",
+              "options": ["1", "2", "7", "8"],
+              "answer": "2",
+              "difficulty": 5
+            },
+            {
+              "question": "You have 5 candles. You lit 3 of them and then put them out. How many are left?",
+              "options": ["2", "3", "5", "0"],
+              "answer": "5",
+              "difficulty": 5
+            },
+            {
+              "question": "If you place two clocks opposite each other, how many hours are between 10 and 2?",
+              "options": ["12 hours", "2 hours", "4 hours", "8 hours"],
+              "answer": "4 hours",
+              "difficulty": 5
+            },
+            {
+              "question": "Which of these objects is unrelated to the others: scissors, pencil, ruler, lamp?",
+              "options": ["Scissors", "Pencil", "Ruler", "Lamp"],
+              "answer": "Lamp",
+              "difficulty": 5
+            },
+            {
+              "question": "A father has three children: Anna, Peter, and...? Who is the third child?",
+              "options": ["Maria", "Alexey", "You", "Paul"],
+              "answer": "You",
+              "difficulty": 5
+            },
+            {
+              "question": "Math puzzle: 10 fish are swimming in a tank. 5 drown. How many are left?",
+              "options": ["0", "5", "10", "5 drowned"],
+              "answer": "10",
+              "difficulty": 5
+            },
+            {
+              "question": "You are standing on a bridge with two friends. All three of you fall into the water. Who falls second?",
+              "options": ["You", "First", "Second", "Third"],
+              "answer": "Second",
+              "difficulty": 4
+            },
+            {
+              "question": "What shape can you make by combining two triangles?",
+              "options": ["Triangle", "Square", "Rectangle", "Trapezoid"],
+              "answer": "Triangle",
+              "difficulty": 5
+            },
+            {
+              "question": "If two people play chess and each beats the other the same number of times, how is it possible?",
+              "options": ["They played with others", "They played each other", "It was a draw", "They didn’t play"],
+              "answer": "They played with others",
+              "difficulty": 6
+            },
+            {
+              "question": "Which is larger: half of a quarter or a quarter of a half?",
+              "options": ["Half of a quarter", "Quarter of a half", "They are equal", "Depends on the number"],
+              "answer": "They are equal",
+              "difficulty": 6
+            },
+            {
+              "question": "What two numbers multiplied by 4 result in 44?",
+              "options": ["11 and 11", "5.5 and 2", "5.5 and 5.5", "2 and 5.5"],
+              "answer": "5.5 and 2",
+              "difficulty": 6
+            },
+            {
+              "question": "If you add me to yourself, I decrease. What am I?",
+              "options": ["Age", "Distance", "Speed", "Shadow"],
+              "answer": "Age",
+              "difficulty": 5
+            },
+            {
+              "question": "What has a face but no eyes?",
+              "options": ["Clock", "Mask", "Coin", "Portrait"],
+              "answer": "Clock",
+              "difficulty": 4
+            },
+            {
+              "question": "Which weighs more: a kilogram of stones or a kilogram of feathers?",
+              "options": ["Stones", "Feathers", "They are equal", "Depends on the humidity"],
+              "answer": "They are equal",
+              "difficulty": 5
+            },
+            {
+              "question": "How many times can you subtract 10 from 100?",
+              "options": ["10", "9", "1", "Infinity"],
+              "answer": "1",
+              "difficulty": 5
+            },
+            {
+              "question": "Can a triangle have angles of 0, 0, and 180 degrees?",
+              "options": ["Yes", "No", "Only in 2D", "Only in 3D"],
+              "answer": "No",
+              "difficulty": 5
+            },
+            {
+              "question": "What tool writes but never speaks?",
+              "options": ["Pen", "Pencil", "Brush", "Marker"],
+              "answer": "Pencil",
+              "difficulty": 4
+            },
+            {
+              "question": "What can be broken without touching it?",
+              "options": ["Silence", "Window", "Egg", "Plan"],
+              "answer": "Silence",
+              "difficulty": 5
+            },
+            {
+              "question": "What question can no one answer 'yes' to?",
+              "options": ["Are you asleep?", "How old are you?", "Are you alive?", "What is this?"],
+              "answer": "Are you asleep?",
+              "difficulty": 6
+            },
+            {
+              "question": "Which word does not belong: table, chair, wardrobe, book?",
+              "options": ["Chair", "Wardrobe", "Book", "Table"],
+              "answer": "Book",
+              "difficulty": 5
+            },
+            {
+              "question": "I grow while being cut. What am I?",
+              "options": ["Thread", "Candle", "Tree", "Rope"],
+              "answer": "Thread",
+              "difficulty": 6
+            },
+            {
+              "question": "What always goes but never moves?",
+              "options": ["Time", "Clock", "Calendar", "River"],
+              "answer": "Time",
+              "difficulty": 5
+            }
+          ],
+          "Сложный": [
+            {
+              "question": "Imagine you are in a room with no windows or doors, only one switch, two lamps, and a pair of wires. How can you determine which lamp is activated if you cannot see the light?",
+              "options": ["Connect both wires and check the lamps", "Toggle the switch several times and then check the lamps", "Turn on the lamp, wait for a few minutes, and then turn it off", "There is no way to determine"],
+              "answer": "Toggle the switch several times and then check the lamps",
+              "difficulty": 8
+            },
+            {
+              "question": "You are given two iron balls, one of which is heavier than the other. You need to find out which ball is heavier using only a scale, but you can make only one weighing. How can you do this?",
+              "options": ["Weigh the balls together", "Place one ball on each side of the scale", "Weigh each ball separately", "Weigh both balls but not on the same side"],
+              "answer": "Place one ball on each side of the scale",
+              "difficulty": 8
+            },
+            {
+              "question": "There are two types of boxes. One always hides what is inside, and the other always reveals it. Which box would you choose to place the most valuable item if you have to pick one?",
+              "options": ["The box that always hides", "The box that always reveals", "It doesn’t matter, both boxes are the same", "Impossible to determine without context"],
+              "answer": "The box that always hides",
+              "difficulty": 8
+            },
+            {
+              "question": "How can you generate light using only a shadow? What conditions are required for this?",
+              "options": ["Shine on a transparent surface", "Use reflective surfaces", "Impossible, light and shadow are opposites", "Create a very bright shadow"],
+              "answer": "Use reflective surfaces",
+              "difficulty": 8
+            },
+            {
+              "question": "There are 2 doors. One leads to freedom, and the other to death. One door is guarded by a liar, and the other by a truth-teller. Each guard knows which door leads where, but you don’t know who is lying and who is truthful. What question can you ask to find out which door leads to freedom?",
+              "options": ["What would the other guard say?", "Which door will the truth-teller open?", "Tell me what’s behind the right door?", "Which door leads to freedom?"],
+              "answer": "What would the other guard say?",
+              "difficulty": 8
+            },
+            {
+              "question": "You have three cards: one face-up, one face-down, and one blank. How can you ensure that each card is flipped at least once, but none return to their original state?",
+              "options": ["Flip all the cards at once", "Flip one card multiple times", "Flip each card once", "Flip only one card"],
+              "answer": "Flip each card once",
+              "difficulty": 8
+            },
+            {
+              "question": "You have three numbers: 5, 10, and 15. What operation should you apply to result in 10 without using standard arithmetic operations?",
+              "options": ["Arrange them in a sequence and add", "Multiply and divide", "Add 5 and 15, then subtract 10", "Subtract 5 from 15 and divide by 2"],
+              "answer": "Subtract 5 from 15 and divide by 2",
+              "difficulty": 8
+            },
+            {
+              "question": "There are two people. One always tells the truth, and the other always lies. How can you determine who is truthful if they both say the same phrase?",
+              "options": ["Ask what they would say if you had to choose", "Ask them an individual question", "Check their previous answers", "Impossible to determine from one phrase"],
+              "answer": "Ask what they would say if you had to choose",
+              "difficulty": 8
+            },
+            {
+              "question": "Four stones lie on the ground. If two are oval and two are round, how can you sort the stones by shape without errors using only one glance?",
+              "options": ["Examine the shape of each stone sequentially", "Use the stones' weight as a clue", "Check how the stones roll", "Touch the stones to distinguish their shapes"],
+              "answer": "Check how the stones roll",
+              "difficulty": 8
+            },
+            {
+              "question": "You stand on an island with two paths ahead of you. One leads to safety, and the other to danger. On each path, there are two people: one always tells the truth, and the other always lies. What question should you ask to choose the correct path?",
+              "options": ["Ask which path leads to safety", "Ask each path where it leads", "Ask what the other guard would say about the path", "Ask any guard a question"],
+              "answer": "Ask what the other guard would say about the path",
+              "difficulty": 8
+            },
+            {
+                "question": "You have 10 coins, and you want to distribute them so that 5 are old and 5 are new. How can you do this if all the coins look identical?",
+                "options": ["Mark the coins", "Put the coins in two boxes", "Give away five coins in turn", "It is impossible to divide the coins because they are identical"],
+                "answer": "Mark the coins",
+                "difficulty": 8
+              },
+              {
+                "question": "There are several lollipops in a basket. You need to count how many are of two colors, but without counting them. How can you do this?",
+                "options": ["Count them one by one", "Look at their color and separate them", "Weigh them", "Use another counting method"],
+                "answer": "Weigh them",
+                "difficulty": 8
+              },
+              {
+                "question": "You have 100 coins. 99 of them are labeled 'Ordinary' and one is labeled 'Special'. You need to determine which coin is special in one operation. What can you do?",
+                "options": ["Flip the coins and find the one with an unusual side", "Weigh the coins and find the one that is different", "Pair the coins and see which one doesn't match", "Sort the coins by weight and highlight the special one"],
+                "answer": "Weigh the coins and find the one that is different",
+                "difficulty": 8
+              },
+              {
+                "question": "There are two lamps in the room. One turns on with a switch, and the other turns on with a motion sensor. How can you determine which one works with the switch and which one works with the sensor?",
+                "options": ["Turn off the lights and observe each one", "Conduct an experiment with the switch and sensor", "Check which lamp turns on when motion is detected", "Swap the lamps and see how they react"],
+                "answer": "Conduct an experiment with the switch and sensor",
+                "difficulty": 8
+              },
+              {
+                "question": "There are three boxes. One with apples, another with oranges, and the third with a mix of apples and oranges. All boxes are incorrectly labeled. How can you determine which fruit is in each box without opening all of them?",
+                "options": ["Choose one box and take out one fruit", "Change the labels of the boxes and check inside", "Open each box one by one", "Ask someone else"],
+                "answer": "Choose one box and take out one fruit",
+                "difficulty": 8
+              },
+              {
+                "question": "Suppose one person always tells the truth and another always lies. If you are asked: 'Where does this path lead?' how can you find out where it leads if you don't know who is lying and who is telling the truth?",
+                "options": ["Ask each one who is lying", "Ask both simultaneously", "Ask one guard what the other will say", "It is impossible to determine without information"],
+                "answer": "Ask one guard what the other will say",
+                "difficulty": 8
+              },
+              {
+                "question": "There are three cups on the table: one with sugar, one with salt, and one empty. How can you determine which is sugar and which is salt in one step?",
+                "options": ["Taste them", "Feel the contents of the cups", "Smell them", "Use chemical reagents"],
+                "answer": "Taste them",
+                "difficulty": 8
+              },
+              {
+                "question": "In one city, there are two companies. In one, 50% of the people tell the truth, and in the other, 90%. How can you find out which company you are in by asking just one question?",
+                "options": ["Ask how often they tell the truth", "Ask a question about the past", "Ask how many people in the city tell the truth", "Ask about the level of truth in their company"],
+                "answer": "Ask about the level of truth in their company",
+                "difficulty": 8
+              },
+              {
+                "question": "You have two jars: one with 10 liters of water and the other with 5 liters of water. How can you divide 7 liters of water using only these jars?",
+                "options": ["Pour all the water from one jar into the other and measure", "Use pouring between the jars", "Use a third container", "Measure 7 liters in parts"],
+                "answer": "Pour all the water from one jar into the other and measure",
+                "difficulty": 8
+              },
+              {
+                "question": "There are 30 students in a class. If each student passes a piece of paper to their neighbor, how many pieces of paper will remain unchanged in the class?",
+                "options": ["0", "1", "2", "All will change"],
+                "answer": "0",
+                "difficulty": 8
+              },
+              {
+                "question": "You have 2 ropes that burn in 60 minutes, but they do not burn evenly. How can you measure 45 minutes using only these ropes?",
+                "options": ["Light both ropes and count", "Burn one rope and count when it burns out", "Light one rope and time it", "Switch the ropes"],
+                "answer": "Light both ropes and count",
+                "difficulty": 8
+              },
+              {
+                "question": "You have 4 jars and 5 stones of different sizes. How can you arrange the stones in the jars so that none of the jars contain the same number of stones?",
+                "options": ["Place stones by size in each jar", "Pair the stones and put one pair in each jar", "Sort the stones by weight and size", "Just arrange the stones randomly"],
+                "answer": "Place stones by size in each jar",
+                "difficulty": 8
+              },
+              {
+                "question": "You have three chairs: one with armrests, another without armrests, and a third with one armrest. Which chair should you choose to sit in if you want comfort, not just form?",
+                "options": ["Sit in the chair with armrests", "Choose the chair without armrests", "Choose the chair with one armrest", "It doesn't matter, all chairs are equally comfortable"],
+                "answer": "Sit in the chair with armrests",
+                "difficulty": 8
+              },
+              {
+                "question": "How can you name a sequence of numbers where each next number is the difference between the two previous ones, and the starting numbers are 2 and 3?",
+                "options": ["Fibonacci", "Geometric progression", "Arithmetic progression", "Number series"],
+                "answer": "Number series",
+                "difficulty": 8
+              },
+              {
+                "question": "There are three windows in a house. One is fully closed, the second is half open, and the third is a quarter open. Which window is the most efficient compared to the others?",
+                "options": ["The fully closed window", "The window that is a quarter open", "The window that is half open", "Cannot determine without knowing the conditions"],
+                "answer": "Cannot determine without knowing the conditions",
+                "difficulty": 8
+              },
+              {
+                "question": "There are three people, each with their own secret. How can you find out all of their secrets by asking each person only one question?",
+                "options": ["Ask each what their secret is", "Ask each other", "Ask the same question to everyone", "It is impossible to find all the secrets with one question"],
+                "answer": "Ask the same question to everyone",
+                "difficulty": 8
+              }
+          ],
+              "Эксперт": [
+    {
+        "question": "Twelve knights are sitting at a round table. Each knight either always tells the truth or always lies. One of them claims: 'The knights sitting on both sides of me are lying.' How many knights at the table are liars?",
+        "options": ["4", "6", "8", "Indeterminable without additional information"],
+        "answer": "6",
+        "difficulty": 10
+    },
+    {
+        "question": "There is a castle with 5 doors, each of which is opened by one of 7 keys. You have 3 attempts to unlock the castle. What is the minimum algorithm to guarantee all doors are opened?",
+        "options": [
+            "Use brute force to try all combinations",
+            "Create a decision tree",
+            "Use a search algorithm with pruning",
+            "It is impossible to guarantee success in 3 attempts"
+        ],
+        "answer": "It is impossible to guarantee success in 3 attempts",
+        "difficulty": 10
+    },
+    {
+        "question": "You are standing at a fork in the road: one path leads to treasure, the other to a deadly pit. Two guides are with you: one always tells the truth, the other always lies. What is the single question you can ask one of them to choose the path to the treasure?",
+        "options": [
+            "'What would the other guide say is the correct path?'",
+            "'Which path leads to the pit?'",
+            "'Which path leads to the treasure?'",
+            "'Do you always tell the truth?'"
+        ],
+        "answer": "'What would the other guide say is the correct path?'",
+        "difficulty": 10
+    },
+    {
+        "question": "There are three switches in a room, each controlling one of three lamps in the next room. You can only enter the lamp room once. How can you determine which switch controls which lamp?",
+        "options": [
+            "Turn on two switches and leave the third off",
+            "Turn on one switch, turn it off, and turn on another",
+            "Use the heat of the lamps to identify the switches",
+            "It is impossible to determine with one visit"
+        ],
+        "answer": "Use the heat of the lamps to identify the switches",
+        "difficulty": 10
+    },
+    {
+        "question": "You have 12 coins, one of which differs in weight, but you don't know if it is heavier or lighter. How can you identify the odd coin using a balance scale in 3 weighings?",
+        "options": [
+            "Divide the coins into three groups and use an elimination strategy",
+            "Compare each coin with a reference",
+            "Use binary search among the coins",
+            "It is impossible to determine with 3 weighings"
+        ],
+        "answer": "Divide the coins into three groups and use an elimination strategy",
+        "difficulty": 10
+    },
+    {
+        "question": "A farmer stands on the bank of a river with a wolf, a goat, and a cabbage. He must transport them across the river using a boat that can carry only the farmer and one passenger. The wolf cannot be left alone with the goat, and the goat cannot be left alone with the cabbage. How can he transport them in the minimum number of trips?",
+        "options": [
+            "The farmer takes the goat, returns for the wolf, leaves the goat, takes the cabbage, and finally returns for the goat",
+            "Take the cabbage, then the goat, then the wolf",
+            "Take the goat, then the cabbage, then the wolf",
+            "There is no definitive solution"
+        ],
+        "answer": "The farmer takes the goat, returns for the wolf, leaves the goat, takes the cabbage, and finally returns for the goat",
+        "difficulty": 10
+    },
+    {
+        "question": "You have a chain of 27 links and need to divide it into three equal parts. Each cut and rejoining costs one link. What is the minimum number of operations required?",
+        "options": ["2", "3", "5", "9"],
+        "answer": "5",
+        "difficulty": 10
+    },
+    {
+        "question": "You stand in front of three chests: one contains gold, one contains silver, and one is empty. Each chest has a label, but only one label is true. The labels say: 1) Gold is here; 2) Nothing is here; 3) Silver is not here. Where is the gold?",
+        "options": [
+            "In the first chest",
+            "In the second chest",
+            "In the third chest",
+            "Impossible to determine"
+        ],
+        "answer": "In the first chest",
+        "difficulty": 10
+    },
+    {
+        "question": "There are 100 houses in a city, and each house has exactly 3 doors. All the doors are numbered from 1 to 300. How can you determine which door belongs to which house, given that each door number corresponds to its house number?",
+        "options": [
+            "Check the sequence of dividing numbers by 100",
+            "Use door colors for coding",
+            "The numbers are sequential: every three doors belong to one house",
+            "It is impossible to determine based on numbers"
+        ],
+        "answer": "The numbers are sequential: every three doors belong to one house",
+        "difficulty": 10
+    },
+    {
+        "question": "Numbers from 1 to 100 are written on a board. You can choose any number and erase it, but you must also erase all multiples of that number. What is the minimum number of numbers left on the board if you perform this operation to completion?",
+        "options": ["1", "10", "25", "50"],
+        "answer": "25",
+        "difficulty": 10
+    },
+    {
+        "question": "You are locked in a room with three switches. These switches control three doors in the next room. Behind one door is the exit, another hides a trap, and the third leads to a dead end. You can flip one switch once and then enter the next room. How can you determine which door leads to the exit?",
+        "options": [
+            "Use sound to analyze what is behind the door",
+            "Open all doors simultaneously",
+            "Remember the sequence of flips",
+            "It is impossible to determine without a hint"
+        ],
+        "answer": "Use sound to analyze what is behind the door",
+        "difficulty": 10
+    },
+    {
+        "question": "You have 1000 liters of water and a 4-liter container. Each time you pour water, 1% evaporates. What is the minimum number of transfers required to get exactly 1 liter of water?",
+        "options": ["999", "1000", "Undeterminable", "1"],
+        "answer": "Undeterminable",
+        "difficulty": 10
+    },
+    {
+        "question": "On an island, there are 12 people, 11 of whom have the same weight, and one has a different weight (lighter or heavier). You have a scale and can use it three times. How can you identify the different person?",
+        "options": [
+            "Divide into groups of 4",
+            "Compare groups evenly until the outlier is excluded",
+            "Use a group elimination method",
+            "It is indeterminable without a fourth weighing"
+        ],
+        "answer": "Use a group elimination method",
+        "difficulty": 10
+    },
+        {
+          "question": "In a labyrinth of 16 rooms, only one leads to the exit. Each room has two doors, but one always leads to a dead end. How can you find the exit in the minimum number of steps?",
+          "options": [
+            "Use a marking system",
+            "Move randomly",
+            "Follow the right wall",
+            "Undeterminable without a map"
+          ],
+          "answer": "Use a marking system",
+          "difficulty": 10
+        },
+        {
+          "question": "You have a square area with a circular treasure hidden inside. What is the minimum number of attempts required to find it with certainty?",
+          "options": ["1", "4", "8", "Infinite"],
+          "answer": "4",
+          "difficulty": 10
+        },
+        {
+          "question": "There are 9 books on three shelves. The first shelf has as many books as the second, and the third has twice as many. How many books must be moved from the third shelf to the first to make all shelves equal?",
+          "options": ["1", "2", "3", "4"],
+          "answer": "2",
+          "difficulty": 10
+        },
+        {
+          "question": "On a planet, there are five types of monsters, each saying only one of two phrases: 'I lie' or 'I tell the truth.' You hear: 'There are two liars on this planet.' How many monsters are there in total?",
+          "options": ["2", "5", "7", "Cannot be determined"],
+          "answer": "5",
+          "difficulty": 10
+        },
+        {
+          "question": "There are three containers labeled: 'Water,' 'Wine,' and 'Mixed.' All labels are incorrect. How can you determine the contents of each container with just one check?",
+          "options": [
+            "Check the 'Mixed' container",
+            "Check the 'Wine' container",
+            "Check the 'Water' container",
+            "Impossible with one check"
+          ],
+          "answer": "Check the 'Mixed' container",
+          "difficulty": 10
+        },
+        {
+          "question": "You have 9 coins, one of which is counterfeit and differs in weight. How can you find the counterfeit coin in two weighings?",
+          "options": [
+            "Compare three coins at a time",
+            "Compare two coins",
+            "Use the elimination method",
+            "Impossible in two weighings"
+          ],
+          "answer": "Compare three coins at a time",
+          "difficulty": 10
+        },
+        {
+          "question": "There are three boxes: one contains only apples, another only oranges, and the third both. All labels are incorrect. How can you determine the contents of all boxes by opening just one?",
+          "options": [
+            "Open the box labeled 'Mixed'",
+            "Open the box labeled 'Apples'",
+            "Open the box labeled 'Oranges'",
+            "Impossible to determine with one opening"
+          ],
+          "answer": "Open the box labeled 'Mixed'",
+          "difficulty": 10
+        },
+        {
+          "question": "You have a rectangle with a width of 4 and a length of 5. How can you divide it into 5 equal parts using only straight lines?",
+          "options": [
+            "Divide it into strips of width 1",
+            "Divide it into triangles",
+            "Use diagonal lines",
+            "Impossible to divide into 5 equal parts"
+          ],
+          "answer": "Use diagonal lines",
+          "difficulty": 10
+        },
+        {
+          "question": "You know a word has 7 letters, but the order is unknown. The word is an anagram of 'orange.' What is the minimum number of checks required to find the original word?",
+          "options": ["1", "7", "5040", "Impossible to determine"],
+          "answer": "5040",
+          "difficulty": 10
+        },
+        {
+          "question": "There are three queens on a chessboard. What is the minimum number of moves required to leave only one queen?",
+          "options": ["1", "3", "5", "7"],
+          "answer": "3",
+          "difficulty": 10
+        },
+        {
+          "question": "You are playing a game with 1000 coins, all showing heads. Each coin has three possible moves: flip, leave, or shift. What is the minimum number of moves required to make all coins show tails?",
+          "options": ["500", "999", "1000", "Impossible"],
+          "answer": "500",
+          "difficulty": 10
+        },
+        {
+          "question": "There are 100 closed boxes. One box contains a key that opens another box. How many boxes must you open to guarantee finding the key?",
+          "options": ["50", "100", "1", "Impossible to determine"],
+          "answer": "100",
+          "difficulty": 10
+        }      
+    ]
+    },
+   "creative": {
+    "Лёгкий": [
+        {
+            "question": "Which month has 28 days?",
+            "options": ["February", "All months", "January", "March"],
+            "answer": "All months",
+            "difficulty": 1
+          },
+          {
+            "question": "What is always ahead of you but you can't see it?",
+            "options": ["Mirror", "Future", "Air", "Shadow"],
+            "answer": "Future",
+            "difficulty": 1
+          },
+          {
+            "question": "Which word starts with the letter 'E' but contains no 'E'?",
+            "options": ["Go", "Elderberry", "Christmas Tree", "Evangelism"],
+            "answer": "Go",
+            "difficulty": 1
+          },
+          {
+            "question": "Which word consists of four letters but has no vowels?",
+            "options": ["Wind", "Snow", "Prom", "Text"],
+            "answer": "Prom",
+            "difficulty": 1
+          },
+          {
+            "question": "Which item is always on your head but is never seen?",
+            "options": ["Hat", "Hair", "Ball", "Frame"],
+            "answer": "Hair",
+            "difficulty": 1
+          },
+          {
+            "question": "What is always first but is never seen?",
+            "options": ["Beginning", "Inspiration", "Desire", "Part"],
+            "answer": "Beginning",
+            "difficulty": 1
+          },
+          {
+            "question": "Which wheel never turns?",
+            "options": ["Picture of a wheel", "Shadow", "Cargo wheel", "Ferris wheel"],
+            "answer": "Picture of a wheel",
+            "difficulty": 1
+          },
+          {
+            "question": "Which is the heaviest thing in the world that can't be lifted?",
+            "options": ["Shadow", "Light", "Smoke", "Heavy thought"],
+            "answer": "Shadow",
+            "difficulty": 1
+          },
+          {
+            "question": "What can you put in a bucket, even when it’s empty, but never put back?",
+            "options": ["Water", "Air", "Light", "Hole"],
+            "answer": "Hole",
+            "difficulty": 2
+          },
+          {
+            "question": "What can you take but never put back?",
+            "options": ["Secret", "Shadow", "Wind", "Stars"],
+            "answer": "Secret",
+            "difficulty": 2
+          },
+          {
+            "question": "What is audible but never visible?",
+            "options": ["Thunder", "Noise", "Light", "Shadow"],
+            "answer": "Thunder",
+            "difficulty": 2
+          },
+          {
+            "question": "What can you hold but never see?",
+            "options": ["Light", "Thoughts", "Shadows", "Cleanliness"],
+            "answer": "Thoughts",
+            "difficulty": 2
+          },
+          {
+            "question": "I am always ahead, but you never see me. What am I?",
+            "options": ["Shadow", "Future", "Wind", "Stars"],
+            "answer": "Future",
+            "difficulty": 2
+          },
+          {
+            "question": "Which color is never seen in a rainbow?",
+            "options": ["Black", "Yellow", "Blue", "Red"],
+            "answer": "Black",
+            "difficulty": 2
+          },
+          {
+            "question": "What can be eaten but leaves no trace?",
+            "options": ["Water", "Stars", "Shadow", "Ice"],
+            "answer": "Stars",
+            "difficulty": 2
+          },
+          {
+            "question": "What is invisible, but always seen?",
+            "options": ["Light", "Shadow", "Expectation", "Thoughts"],
+            "answer": "Shadow",
+            "difficulty": 2
+          },
+          {
+            "question": "When do two sticks become one?",
+            "options": ["When they are joined", "When they are lined up", "When they are split", "When they twist"],
+            "answer": "When they are joined",
+            "difficulty": 2
+          },
+          {
+            "question": "Which word can be made from 3 letters but is neither an adjective, noun, nor verb?",
+            "options": ["Coffee", "Light", "Storm", "Water"],
+            "answer": "Coffee",
+            "difficulty": 2
+          },
+          {
+            "question": "What can be beaten but not scratched?",
+            "options": ["Wall", "Ice cube", "Sky", "Shadow"],
+            "answer": "Wall",
+            "difficulty": 2
+          },
+          {
+            "question": "What is always with us but cannot be held?",
+            "options": ["Time", "Breath", "Dream", "Light"],
+            "answer": "Time",
+            "difficulty": 3
+          },
+          {
+            "question": "What has no beginning, but always has an end?",
+            "options": ["Cycle", "Sun", "Year", "Time"],
+            "answer": "Time",
+            "difficulty": 3
+          },
+          {
+            "question": "What becomes larger when you divide it?",
+            "options": ["Secret", "Love", "Problem", "Happiness"],
+            "answer": "Love",
+            "difficulty": 3
+          },
+          {
+            "question": "What can you hold but will never see?",
+            "options": ["Shadow", "Perfume", "Wind", "Lie"],
+            "answer": "Perfume",
+            "difficulty": 3
+          },
+          {
+            "question": "I run but never get tired. What am I?",
+            "options": ["River", "Wind", "Clock", "Light"],
+            "answer": "Clock",
+            "difficulty": 3
+          },
+          {
+            "question": "What will happen if you fall into a black hole?",
+            "options": ["You disappear", "You experience time differently", "You become invisible", "You feel lighter"],
+            "answer": "You disappear",
+            "difficulty": 3
+          }
+    ],
+    "Средний": [
+            {
+              "question": "You are in a room without windows and doors, and the only way to get out is to find something that will let you out. What is it?",
+              "options": ["Key", "Answer", "Time", "Assumption"],
+              "answer": "Answer",
+              "difficulty": 2
+            },
+            {
+              "question": "In which month do people sleep the least?",
+              "options": ["February", "December", "August", "May"],
+              "answer": "February",
+              "difficulty": 2
+            },
+            {
+              "question": "Which key never opens any door?",
+              "options": ["Golden", "Musical", "Apartment key", "Answer"],
+              "answer": "Musical",
+              "difficulty": 2
+            },
+            {
+              "question": "If you could choose one superpower, what would you choose?",
+              "options": ["Mind reading", "Invisibility", "Time manipulation", "Teleportation"],
+              "answer": "Time manipulation",
+              "difficulty": 2
+            },
+            {
+              "question": "Which question never has an answer?",
+              "options": ["How much does happiness cost?", "Where does the world end?", "Which came first — the chicken or the egg?", "When will the war end?"],
+              "answer": "How much does happiness cost?",
+              "difficulty": 2
+            },
+            {
+              "question": "At what moment does the next day begin?",
+              "options": ["Midnight", "When I wake up", "When I start working", "When morning comes"],
+              "answer": "Midnight",
+              "difficulty": 2
+            },
+            {
+              "question": "What makes a person invisible?",
+              "options": ["Invisible cloak", "Darkness", "Invisibility", "Lack of movement"],
+              "answer": "Darkness",
+              "difficulty": 2
+            },
+            {
+              "question": "What is lighter than air but no person can lift it?",
+              "options": ["Shadow", "Air", "Light", "Desire"],
+              "answer": "Light",
+              "difficulty": 2
+            },
+            {
+              "question": "What stands but never moves?",
+              "options": ["Shadow", "Table", "Clock", "Wall"],
+              "answer": "Clock",
+              "difficulty": 2
+            },
+            {
+              "question": "What thing always grows but never gets older?",
+              "options": ["Garden", "Knowledge", "Clock", "Forest"],
+              "answer": "Knowledge",
+              "difficulty": 2
+            },
+            {
+              "question": "What can you do but never get back?",
+              "options": ["Time", "Happiness", "Friends", "Money"],
+              "answer": "Time",
+              "difficulty": 2
+            },
+            {
+              "question": "What is always ahead of you but you cannot see it?",
+              "options": ["The future", "Time", "Life", "Tomorrow"],
+              "answer": "The future",
+              "difficulty": 2
+            },
+            {
+              "question": "What can you hold in your hands but never see?",
+              "options": ["Shadow", "Wind", "Time", "Secret"],
+              "answer": "Wind",
+              "difficulty": 3
+            },
+            {
+              "question": "What never comes but everyone always talks about it?",
+              "options": ["Tomorrow", "The future", "Forgiveness", "The end"],
+              "answer": "Tomorrow",
+              "difficulty": 3
+            },
+            {
+              "question": "What is lighter than air but no one can lift it?",
+              "options": ["Shadow", "Air", "Light", "Desire"],
+              "answer": "Light",
+              "difficulty": 3
+            },
+            {
+              "question": "What is always with you but never noticeable?",
+              "options": ["Your thoughts", "Laughter", "Day", "Dream"],
+              "answer": "Your thoughts",
+              "difficulty": 3
+            },
+            {
+              "question": "What do you really need to lose for it to become necessary to you?",
+              "options": ["Time", "Happiness", "Friends", "Money"],
+              "answer": "Time",
+              "difficulty": 3
+            },
+            {
+              "question": "What rule is always broken but no one notices?",
+              "options": ["The 7-second rule", "The first impression rule", "The silence rule", "Laws of nature"],
+              "answer": "The silence rule",
+              "difficulty": 3
+            },
+            {
+              "question": "What is for everyone, but each person holds it differently?",
+              "options": ["Secrets", "Dreams", "Hope", "Strength"],
+              "answer": "Secrets",
+              "difficulty": 3
+            },
+            {
+              "question": "What in the world exists but cannot truly be seen or touched?",
+              "options": ["Time", "Light", "Sleep", "Dream"],
+              "answer": "Dream",
+              "difficulty": 3
+            },
+            {
+              "question": "What saves you only at the end, although it is always with you?",
+              "options": ["Shadow", "Willpower", "Friendship", "Love"],
+              "answer": "Friendship",
+              "difficulty": 3
+            },
+            {
+              "question": "What always gives you the right answer but is never visible?",
+              "options": ["Conscience", "Intuition", "Logic", "Wisdom"],
+              "answer": "Intuition",
+              "difficulty": 3
+            },
+            {
+              "question": "What must always be left behind but cannot be transferred into the future?",
+              "options": ["Past", "Secret", "Burden", "Mistakes"],
+              "answer": "Mistakes",
+              "difficulty": 3
+            },
+            {
+              "question": "What can be stretched but never torn?",
+              "options": ["Time", "Fabric", "Space", "Love"],
+              "answer": "Time",
+              "difficulty": 3
+            },
+            {
+              "question": "What is a movement that cannot be stopped?",
+              "options": ["Second", "Life", "Sunlight", "Clock"],
+              "answer": "Life",
+              "difficulty": 3
+            },
+            {
+              "question": "What has no beginning or end, but everyone talks about it?",
+              "options": ["Circle", "Time", "Life", "Eternity"],
+              "answer": "Circle",
+              "difficulty": 3
+            },
+            {
+              "question": "What takes a lot of time but gives no results?",
+              "options": ["Waiting", "Dreaming", "Rationalizing", "Working"],
+              "answer": "Waiting",
+              "difficulty": 3
+            },
+            {
+              "question": "What can you leave behind but it will continue moving?",
+              "options": ["Light", "Wind", "Noise", "Time"],
+              "answer": "Time",
+              "difficulty": 3
+            }          
+    ],
+    "Сложный": [
+        {
+          "question": "What appears once in a minute, twice in a moment, but never in a thousand years?",
+          "options": ["The letter M", "Time", "Opportunity", "Change"],
+          "answer": "The letter M",
+          "difficulty": 4
+        },
+        {
+          "question": "If you have a bowl with 6 apples and you take 4, how many apples do you have left?",
+          "options": ["2", "4", "6", "None"],
+          "answer": "4",
+          "difficulty": 5
+        },
+        {
+          "question": "If you remove all the words from a dictionary, what remains?",
+          "options": ["Letters", "Silence", "Nothing", "Empty pages"],
+          "answer": "Empty pages",
+          "difficulty": 6
+        },
+        {
+          "question": "If two people are a company, and three are a crowd, what are four and five?",
+          "options": ["Nine", "An unusual number", "A group", "Four and five"],
+          "answer": "Nine",
+          "difficulty": 7
+        },
+        {
+          "question": "I have keys, but I don’t open locks. I have space, but no room. You can enter, but can’t go inside. Who am I?",
+          "options": ["Keyboard", "Phone", "House", "Computer"],
+          "answer": "Keyboard",
+          "difficulty": 6
+        },
+        {
+          "question": "How many seconds are there in a year?",
+          "options": ["12", "60", "365", "31,536,000"],
+          "answer": "31,536,000",
+          "difficulty": 8
+        },
+        {
+          "question": "What is always in front of you but you can never see?",
+          "options": ["The future", "Air", "Your shadow", "Your mind"],
+          "answer": "The future",
+          "difficulty": 7
+        },
+        {
+          "question": "A person gave one son 10 cents and another 15 cents. What time is it?",
+          "options": ["1:25", "2:30", "3:45", "4:50"],
+          "answer": "1:25",
+          "difficulty": 6
+        },
+        {
+          "question": "What is so fragile that saying its name breaks it?",
+          "options": ["Silence", "Glass", "A promise", "Love"],
+          "answer": "Silence",
+          "difficulty": 7
+        },
+        {
+          "question": "You can hold this without using your hands or arms. What is it?",
+          "options": ["Your breath", "Memory", "Your attention", "A thought"],
+          "answer": "Your breath",
+          "difficulty": 5
+        },
+        {
+          "question": "The more you take, the more you leave behind. What is it?",
+          "options": ["Steps", "Time", "Thoughts", "Memories"],
+          "answer": "Steps",
+          "difficulty": 4
+        },
+        {
+          "question": "What can travel around the world but stay in the corner?",
+          "options": ["A stamp", "An airplane", "A thought", "A book"],
+          "answer": "A stamp",
+          "difficulty": 5
+        },
+        {
+          "question": "If a plane crashes on the border of the USA and Canada, where do they bury the survivors?",
+          "options": ["In Canada", "In the USA", "Survivors are not buried", "On the border"],
+          "answer": "Survivors are not buried",
+          "difficulty": 8
+        },
+        {
+          "question": "How can a person go for eight days without sleep?",
+          "options": ["Sleep at night", "Using a time machine", "Meditating", "Working hard"],
+          "answer": "Sleep at night",
+          "difficulty": 5
+        },
+        {
+          "question": "If you have a pile of 10 coins and you take 3, how many do you have left?",
+          "options": ["3", "7", "10", "None"],
+          "answer": "3",
+          "difficulty": 4
+        },
+        {
+          "question": "What appears once a year, twice a week, but never in a day?",
+          "options": ["The letter 'E'", "A holiday", "Weekends", "The new moon"],
+          "answer": "The letter 'E'",
+          "difficulty": 6
+        },
+        {
+          "question": "What can be broken but never held?",
+          "options": ["A promise", "A heart", "Glass", "Silence"],
+          "answer": "A promise",
+          "difficulty": 7
+        },
+        {
+          "question": "What word is written incorrectly in every dictionary?",
+          "options": ["Incorrectly", "Wrong", "Dictionary", "Written"],
+          "answer": "Incorrectly",
+          "difficulty": 6
+        },
+        {
+          "question": "I am not alive, but I grow; I have no lungs, but I need air; I have no mouth, but water kills me. Who am I?",
+          "options": ["Fire", "A plant", "A shadow", "A cloud"],
+          "answer": "Fire",
+          "difficulty": 8
+        },
+        {
+          "question": "How many times can you subtract 5 from 25?",
+          "options": ["Once", "5 times", "25 times", "Every time"],
+          "answer": "Once",
+          "difficulty": 7
+        },
+        {
+          "question": "If you have a pile of 10 coins and you take 3, how many do you have left?",
+          "options": ["3", "7", "10", "None"],
+          "answer": "3",
+          "difficulty": 5
+        },
+        {
+          "question": "If 5 machines make 5 items in 5 minutes, how much time will it take for 100 machines to make 100 items?",
+          "options": ["100 minutes", "5 minutes", "50 minutes", "1 minute"],
+          "answer": "5 minutes",
+          "difficulty": 8
+        },
+        {
+          "question": "What goes down but never comes up?",
+          "options": ["Rain", "Age", "Gravity", "Temperature"],
+          "answer": "Rain",
+          "difficulty": 7
+        }
+      ],
+      "Эксперт": [
+        {
+            "question": "What question can be asked in such a way that the answer will always be 'yes'?",
+            "options": ["Are you alive?", "Are you dead?", "Are you human?", "Can you hear me?"],
+            "answer": "Are you alive?",
+            "difficulty": 7
+        },
+        {
+            "question": "What word consists of 8 letters, but if you remove one, it will still remain a word?",
+            "options": ["Simple", "Listener", "Education", "Milk"],
+            "answer": "Listener",
+            "difficulty": 8
+        },
+        {
+            "question": "Which month has 28 days?",
+            "options": ["February", "January", "All months", "June"],
+            "answer": "All months",
+            "difficulty": 9
+        },
+        {
+            "question": "What can be held in the right hand but not in the left?",
+            "options": ["Left hand", "Glove", "Sun", "Sock"],
+            "answer": "Left hand",
+            "difficulty": 8
+        },
+        {
+            "question": "What number, when multiplied by any other number, gives the same result as the number itself?",
+            "options": ["1", "0", "10", "2"],
+            "answer": "1",
+            "difficulty": 7
+        },
+        {
+            "question": "If your shadow catches you, what will happen to you?",
+            "options": ["Nothing", "It will be hot", "You will be consumed by the shadow", "You will disappear"],
+            "answer": "Nothing",
+            "difficulty": 7
+        },
+        {
+            "question": "What can be made of bricks but is not a house?",
+            "options": ["Wall", "Bridge", "Castle", "Tower"],
+            "answer": "Wall",
+            "difficulty": 9
+        },
+        {
+            "question": "What follows evening and comes before morning, but has no physical presence?",
+            "options": ["Shadow", "Dream", "Night", "Sleep"],
+            "answer": "Night",
+            "difficulty": 7
+        },
+        {
+            "question": "What thing can be broken but has no form?",
+            "options": ["Word", "Promise", "Heart", "Friendship"],
+            "answer": "Promise",
+            "difficulty": 9
+        },
+        {
+            "question": "What happens after you chop off the head of a person on the chessboard?",
+            "options": ["Nothing", "He returns", "The game is over", "The piece disappears"],
+            "answer": "Nothing",
+            "difficulty": 7
+        },
+        {
+            "question": "Which tool cannot be used to perform work?",
+            "options": ["Hammer", "Hammer without a handle", "Axe", "Manual press"],
+            "answer": "Hammer without a handle",
+            "difficulty": 8
+        },
+        {
+            "question": "What can be found in every room but is not always visible?",
+            "options": ["Shadow", "Light", "Door", "Window"],
+            "answer": "Shadow",
+            "difficulty": 8
+        },
+        {
+            "question": "What starts its work but never finishes?",
+            "options": ["Clock", "Calendar", "Task", "Circle"],
+            "answer": "Clock",
+            "difficulty": 9
+        },
+        {
+            "question": "If a bus travels in one direction and returns exactly 12 hours later, how long will it take for the bus to return?",
+            "options": ["12 hours", "6 hours", "24 hours", "Depends on direction"],
+            "answer": "12 hours",
+            "difficulty": 8
+        },
+        {
+            "question": "What will be higher if you decrease it?",
+            "options": ["Shadow", "Mountain", "Building", "Temperature"],
+            "answer": "Temperature",
+            "difficulty": 7
+        },
+        {
+            "question": "What is impossible to see but can be felt?",
+            "options": ["Darkness", "Heat", "Light", "Voices"],
+            "answer": "Darkness",
+            "difficulty": 9
+        },
+        {
+            "question": "Which city cannot be found on the map?",
+            "options": ["City in the clouds", "Dreams", "Illusion", "City of wonders"],
+            "answer": "Dreams",
+            "difficulty": 8
+        },
+        {
+            "question": "What is always ahead of you, but you cannot see it?",
+            "options": ["Future", "Reflection", "Dream", "Frost"],
+            "answer": "Future",
+            "difficulty": 9
+        },
+        {
+            "question": "Which bridge cannot be destroyed?",
+            "options": ["Bridge over a river", "Telekinetic bridge", "Bridge in the mind", "Bridge over reality"],
+            "answer": "Bridge in the mind",
+            "difficulty": 10
+        },
+        {
+            "question": "Which river is the most dangerous for a person?",
+            "options": ["Male river", "River of death", "Life", "River of time"],
+            "answer": "River of time",
+            "difficulty": 10
+        },
+        {
+            "question": "How much can you take if you have taken 4 out of 10?",
+            "options": ["4", "6", "10", "Nothing"],
+            "answer": "4",
+            "difficulty": 8
+        },
+        {
+            "question": "What continues to remain in sight despite constant enlargement?",
+            "options": ["Ocean", "Moon", "Sun", "Stars"],
+            "answer": "Moon",
+            "difficulty": 8
+        },
+        {
+            "question": "Which object has no angles but can be drawn?",
+            "options": ["Circle", "Square", "Triangle", "Parallel lines"],
+            "answer": "Circle",
+            "difficulty": 7
+        },
+        {
+            "question": "What will be lighter if you throw it but remain in the same state?",
+            "options": ["Light", "Snowflake", "Air", "Water"],
+            "answer": "Air",
+            "difficulty": 10
+        }
+      ]      
+   },
+   "logic": {
+      "Лёгкий": [
+        {
+          "question": "What has no beginning, end, or middle?",
+          "options": ["Circle", "String", "Tunnel", "Road"],
+          "answer": "Circle",
+          "difficulty": 1
+        },
+        {
+          "question": "What gets bigger the more you take away?",
+          "options": ["Hole", "Space", "Silence", "Shadow"],
+          "answer": "Hole",
+          "difficulty": 2
+        },
+        {
+          "question": "I’m always running, but I never move. What am I?",
+          "options": ["Clock", "River", "Time", "Engine"],
+          "answer": "Time",
+          "difficulty": 3
+        },
+        {
+          "question": "I have cities but no buildings, forests but no trees, rivers but no water. What am I?",
+          "options": ["Map", "Puzzle", "Book", "Painting"],
+          "answer": "Map",
+          "difficulty": 2
+        },
+        {
+          "question": "What has a thumb and four fingers but isn’t alive?",
+          "options": ["Glove", "Hand", "Statue", "Puppet"],
+          "answer": "Glove",
+          "difficulty": 1
+        },
+        {
+          "question": "I am not alive, but I can grow. I don’t have lungs, but I need air. What am I?",
+          "options": ["Fire", "Plant", "Cloud", "Wind"],
+          "answer": "Fire",
+          "difficulty": 3
+        },
+        {
+          "question": "What can be cracked, made, told, and played?",
+          "options": ["Joke", "Egg", "Code", "Game"],
+          "answer": "Joke",
+          "difficulty": 2
+        },
+        {
+          "question": "What has to be kept after it’s given?",
+          "options": ["Promise", "Key", "Gift", "Secret"],
+          "answer": "Promise",
+          "difficulty": 2
+        },
+        {
+          "question": "What belongs to you but is used more by others?",
+          "options": ["Your name", "Your phone", "Your voice", "Your shadow"],
+          "answer": "Your name",
+          "difficulty": 1
+        },
+        {
+          "question": "I am always in front of you but can never be seen. What am I?",
+          "options": ["Future", "Wind", "Shadow", "Air"],
+          "answer": "Future",
+          "difficulty": 1
+        },
+        {
+          "question": "The more you take, the more you leave behind. What am I?",
+          "options": ["Footsteps", "Memories", "Time", "Sand"],
+          "answer": "Footsteps",
+          "difficulty": 3
+        },
+        {
+          "question": "I am not alive but have five fingers. What am I?",
+          "options": ["Glove", "Statue", "Hand", "Robot"],
+          "answer": "Glove",
+          "difficulty": 2
+        },
+        {
+          "question": "What is full of holes but still holds water?",
+          "options": ["Sponge", "Net", "Cloud", "Pipe"],
+          "answer": "Sponge",
+          "difficulty": 2
+        },
+        {
+          "question": "What has words but never speaks?",
+          "options": ["Book", "Phone", "Letter", "Sign"],
+          "answer": "Book",
+          "difficulty": 1
+        },
+        {
+          "question": "What is as light as a feather, but the strongest person can’t hold it for very long?",
+          "options": ["Breath", "Air", "Shadow", "Balloon"],
+          "answer": "Breath",
+          "difficulty": 3
+        },
+        {
+          "question": "What goes up and down but doesn’t move?",
+          "options": ["Stairs", "Temperature", "Elevator", "Mountain"],
+          "answer": "Stairs",
+          "difficulty": 2
+        },
+        {
+          "question": "What has a head, a tail, but no body?",
+          "options": ["Coin", "Snake", "Nail", "Matchstick"],
+          "answer": "Coin",
+          "difficulty": 1
+        },
+        {
+          "question": "What can you hold in your left hand but not in your right?",
+          "options": ["Your right hand", "Your ear", "Your nose", "Your hair"],
+          "answer": "Your right hand",
+          "difficulty": 2
+        },
+        {
+          "question": "What has a bottom at the top?",
+          "options": ["Legs", "Chair", "Cloud", "Bottle"],
+          "answer": "Legs",
+          "difficulty": 2
+        },
+        {
+          "question": "What is always in the middle of nowhere?",
+          "options": ["The letter H", "Space", "Shadow", "Air"],
+          "answer": "The letter H",
+          "difficulty": 3
+        },
+        {
+          "question": "What is so fragile that saying its name breaks it?",
+          "options": ["Silence", "Glass", "Egg", "Secret"],
+          "answer": "Silence",
+          "difficulty": 2
+        },
+        {
+          "question": "What can run but never walks, has a bed but never sleeps?",
+          "options": ["River", "Clock", "Car", "Shadow"],
+          "answer": "River",
+          "difficulty": 1
+        },
+        {
+          "question": "What can you catch but not throw?",
+          "options": ["Cold", "Time", "Wind", "Sound"],
+          "answer": "Cold",
+          "difficulty": 1
+        },
+        {
+          "question": "What has a face but no eyes, hands but no arms?",
+          "options": ["Clock", "Statue", "Mirror", "Mask"],
+          "answer": "Clock",
+          "difficulty": 2
+        },
+        {
+          "question": "What has a ring but no finger?",
+          "options": ["Telephone", "Bell", "Candle", "Cup"],
+          "answer": "Telephone",
+          "difficulty": 1
+        }
+      ],
+      "Средний": [
+        {
+        "question": "What comes next in the sequence: 1, 4, 9, 16, ?",
+        "options": [
+          "25",
+          "30",
+          "24",
+          "27"
+        ],
+        "answer": "25",
+        "difficulty": 4
+      },
+      {
+        "question": "If two's company and three's a crowd, what are four and five?",
+        "options": [
+          "Nine",
+          "Fourteen",
+          "A party",
+          "Five"
+        ],
+        "answer": "A party",
+        "difficulty": 5
+      },
+      {
+        "question": "What is full of holes but still holds a lot of weight?",
+        "options": [
+          "A sponge",
+          "A net",
+          "A cheese grater",
+          "A strainer"
+        ],
+        "answer": "A sponge",
+        "difficulty": 4
+      },
+      {
+        "question": "What has keys but can't open locks?",
+        "options": [
+          "A piano",
+          "A map",
+          "A suitcase",
+          "A treasure chest"
+        ],
+        "answer": "A piano",
+        "difficulty": 4
+      },
+      {
+        "question": "How many months have 28 days?",
+        "options": [
+          "One",
+          "All",
+          "Twelve",
+          "February only"
+        ],
+        "answer": "All",
+        "difficulty": 4
+      },
+      {
+        "question": "Which letter comes next in the sequence: A, C, F, J, O, ?",
+        "options": [
+          "T",
+          "R",
+          "M",
+          "S"
+        ],
+        "answer": "T",
+        "difficulty": 5
+      },
+      {
+        "question": "What is so fragile that saying its name breaks it?",
+        "options": [
+          "Silence",
+          "Glass",
+          "A promise",
+          "Trust"
+        ],
+        "answer": "Silence",
+        "difficulty": 5
+      },
+      {
+        "question": "If you have a bowl with six apples and you take away four, how many do you have?",
+        "options": [
+          "Six",
+          "Two",
+          "Four",
+          "None"
+        ],
+        "answer": "Four",
+        "difficulty": 3
+      },
+      {
+        "question": "What word becomes shorter when you add two letters to it?",
+        "options": [
+          "Short",
+          "Long",
+          "Tight",
+          "Slow"
+        ],
+        "answer": "Short",
+        "difficulty": 4
+      },
+      {
+        "question": "If you are running a race and pass the person in second place, what place are you in?",
+        "options": [
+          "First",
+          "Second",
+          "Third",
+          "Fourth"
+        ],
+        "answer": "Second",
+        "difficulty": 3
+      },
+      {
+        "question": "How many sides does a circle have?",
+        "options": [
+          "One",
+          "Two",
+          "None",
+          "Infinity"
+        ],
+        "answer": "Two",
+        "difficulty": 4
+      },
+      {
+        "question": "What gets wetter as it dries?",
+        "options": [
+          "A towel",
+          "A sponge",
+          "The sun",
+          "A puddle"
+        ],
+        "answer": "A towel",
+        "difficulty": 4
+      },
+      {
+        "question": "What has a head, a tail, but no body?",
+        "options": [
+          "A coin",
+          "A snake",
+          "A river",
+          "A button"
+        ],
+        "answer": "A coin",
+        "difficulty": 4
+      },
+      {
+        "question": "What is the next number in the sequence: 2, 3, 5, 8, 12, ?",
+        "options": [
+          "17",
+          "20",
+          "19",
+          "15"
+        ],
+        "answer": "17",
+        "difficulty": 4
+      },
+      {
+        "question": "What has one head, one foot, and four legs?",
+        "options": [
+          "A bed",
+          "A chair",
+          "A person",
+          "A table"
+        ],
+        "answer": "A bed",
+        "difficulty": 4
+      },
+      {
+        "question": "The more you take, the more you leave behind. What am I?",
+        "options": [
+          "Footsteps",
+          "Time",
+          "Money",
+          "Memories"
+        ],
+        "answer": "Footsteps",
+        "difficulty": 5
+      },
+      {
+        "question": "What begins with T, ends with T, and has T in it?",
+        "options": [
+          "A teapot",
+          "A tunnel",
+          "A time",
+          "A ticket"
+        ],
+        "answer": "A teapot",
+        "difficulty": 4
+      },
+      {
+        "question": "What can travel around the world while staying in the corner?",
+        "options": [
+          "A stamp",
+          "A bird",
+          "A plane",
+          "A letter"
+        ],
+        "answer": "A stamp",
+        "difficulty": 5
+      },
+      {
+        "question": "What has cities, but no houses; forests, but no trees; and rivers, but no water?",
+        "options": [
+          "A map",
+          "A book",
+          "A puzzle",
+          "A globe"
+        ],
+        "answer": "A map",
+        "difficulty": 4
+      },
+      {
+        "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+        "options": [
+          "The letter M",
+          "The letter N",
+          "The letter O",
+          "Time"
+        ],
+        "answer": "The letter M",
+        "difficulty": 4
+      },
+      {
+        "question": "How many two-cent stamps do you need to make 1 dollar?",
+        "options": [
+          "50",
+          "100",
+          "200",
+          "25"
+        ],
+        "answer": "50",
+        "difficulty": 5
+      },
+      {
+        "question": "If there are six apples and you take away four, how many do you have?",
+        "options": [
+          "Six",
+          "Two",
+          "Four",
+          "None"
+        ],
+        "answer": "Four",
+        "difficulty": 4
+      },
+      {
+        "question": "I am not alive, but I grow; I do not have lungs, but I need air; I do not have a mouth, but water kills me. What am I?",
+        "options": [
+          "Fire",
+          "A plant",
+          "A cloud",
+          "A stone"
+        ],
+        "answer": "Fire",
+        "difficulty": 5
+      }
+    ]   
+   }
+}
